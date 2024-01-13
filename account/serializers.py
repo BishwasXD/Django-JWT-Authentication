@@ -70,3 +70,5 @@ class SendPasswordResetEmailSerializer(serializers.Serializer):
                   return attrs                  
             raise serializers.ValidationError('Email not registered')
             
+class changePasswordView(serializers.Serializer):
+      pass
